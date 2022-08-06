@@ -1,0 +1,71 @@
+#navbar {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    border-color: crimson;
+    position: sticky;
+    top: 0px;
+    
+    background-color: grey;
+    
+}
+#navbar th {
+    border-collapse: collapse;
+    border-color: crimson;
+    border-style: solid;
+    
+}
+
+#navbar a {
+    color:aqua;
+}
+
+.purple {
+    color: purple;
+}
+ 
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url(../assets/images/bgtile.jpg);
+    color: white;
+}
+img {
+    padding-left:20%;
+    padding-right:20%;
+}
+
+#header {
+display: inline
+}
+
+#display_inline {
+display: inline
+}
+
+
+a:hover {
+    color:grey;
+    
+}
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display:none;
+    color: black;
+    background-color: aliceblue;
+    padding: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+table {
+    font-size: medium;
+}
+.active {
+    background-color: lightcoral;
+}
+
